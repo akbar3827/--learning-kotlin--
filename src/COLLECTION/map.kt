@@ -24,4 +24,10 @@ fun main() {
     mutableMap.get("e")
     mutableMap.getOrDefault("f", "fufufafa")
 
+    // Map Spesific Operation
+    println(map1.getOrElse("z") { "there is no value for z" })
+    println(map1.getValue("e"))
+    println(map1.filter { it.key != "a" })
+    println(map1.filterKeys { it != "a" })
+    println(map1.filterValues { it != "erlang" })
 }

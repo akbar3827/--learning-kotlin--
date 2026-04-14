@@ -1,4 +1,4 @@
-package com.example.learn_kotlin.COLLECTION
+    package com.example.learn_kotlin.COLLECTION
 
 fun main() {
     val list: List<String> = listOf("Moh.", "Akbar", "kurniawan")
